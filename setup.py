@@ -10,5 +10,6 @@ setuptools.setup(
     long_description=LONG_DESCRIPTION,
     url="https://github.com/RaunoArike/STACC-Data-Engineering-API",
     packages=setuptools.find_packages(exclude=("tests")),
+    install_requires="flask",
     python_requires=">=3.7"
 )
